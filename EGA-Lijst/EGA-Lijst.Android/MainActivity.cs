@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using VoedingsLijst.Droid;
 
 namespace EGA_Lijst.Droid
 {
