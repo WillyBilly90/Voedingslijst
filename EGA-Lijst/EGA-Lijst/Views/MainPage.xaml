@@ -1,18 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EGA_Lijst.MainPage">
+             x:Class="EGA_Lijst.MainPage"
+             Title="Voedingslijst">
+    <NavigationPage.TitleView>
+        <StackLayout Margin="3,3,3,3">
+            <Label Text="Voedingslijst" />
+        <Label x:Name="DateLbl" />
+            </StackLayout>
+    </NavigationPage.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem Name="Left"
                      Order="Primary"
                      Text="&lt;&lt;"
-                     Priority="0" />
+                     Priority="0"
+                     Clicked="Left_Clicked" />
         <ToolbarItem Name="Right"
                      Order="Primary"
                      Text=">>"
-                     Priority="1" />
+                     Priority="1"
+                     Clicked="Right_Clicked" />
     </ContentPage.ToolbarItems>
-    <ListView>
+    <ListView ItemsSource="{Binding voedingsLijst,Mode=TwoWay}" Margin="5,5,5,5">
         <ListView.Header>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -26,15 +35,18 @@
                 <Label Text="Omschrijving"
                        BackgroundColor="LightGray"
                        Grid.Column="0"
-                       Grid.Row="0" />
+                       Grid.Row="0"
+                       FontSize="Medium"/>
                 <Label Text="Verplicht"
                        BackgroundColor="LightGray"
                        Grid.Column="1"
-                       Grid.Row="0" />
+                       Grid.Row="0"
+                       FontSize="Medium"/>
                 <Label Text="Genuttigd"
                        BackgroundColor="LightGray"
                        Grid.Column="2"
-                       Grid.Row="0" />
+                       Grid.Row="0"
+                       FontSize="Medium"/>
             </Grid>
         </ListView.Header>
         <ListView.ItemTemplate>
@@ -51,11 +63,14 @@
                         </Grid.ColumnDefinitions>
 
                         <Label  Grid.Column="0"
-                                Text="{Binding id}" />
-                        <Label  Grid.Column="1"
-                                Text="{Binding usr}" />
-                        <Label Grid.Column="2"
-                               Text="{Binding pass}" />
+                                Text="{Binding NaamVoeding,Mode=TwoWay}" 
+                                FontSize="Medium"/>
+                        <CheckBox  Grid.Column="1"
+                                   IsChecked="{Binding IsVerplichteVoeding,Mode=TwoWay}"
+                                   IsEnabled="False" />
+                        <Switch Grid.Column="2"
+                                IsToggled="{Binding IsGenuttigd,Mode=TwoWay}"
+                                Toggled="Switch_Toggled" />
                     </Grid>
                 </ViewCell>
             </DataTemplate>
