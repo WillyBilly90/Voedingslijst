@@ -1,0 +1,12 @@
+﻿/ref:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\wilco\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\wilco\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private\\"
+/ref:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\in"
+/ref:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\wilco\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\csc"
+/out:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\intermediate\EGA-Lijst.UWP.Sg"
+"@D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst.UWP\obj\x86\Release\ilc\intermediate\EGA-Lijst.UWP.Sg\ComputedSerializationInput.txt"

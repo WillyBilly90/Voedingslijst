@@ -192,7 +192,7 @@ namespace EGA_Lijst
             Voeding Kaas2 = new Voeding
             {
                 WeekLijstId = weekLijstId,
-                NaamVoeding = "Vis",
+                NaamVoeding = "Kaas",
                 IsVerplichteVoeding = false,
                 IsGenuttigd = false
             };
@@ -200,7 +200,7 @@ namespace EGA_Lijst
             Voeding Kaas3 = new Voeding
             {
                 WeekLijstId = weekLijstId,
-                NaamVoeding = "Vis",
+                NaamVoeding = "Kaas",
                 IsVerplichteVoeding = false,
                 IsGenuttigd = false
             };
@@ -208,7 +208,7 @@ namespace EGA_Lijst
             Voeding Kaas4 = new Voeding
             {
                 WeekLijstId = weekLijstId,
-                NaamVoeding = "Vis",
+                NaamVoeding = "Kaas",
                 IsVerplichteVoeding = false,
                 IsGenuttigd = false
             };
@@ -237,14 +237,6 @@ namespace EGA_Lijst
                 IsGenuttigd = false
             };
             result = Database.InsertAsync(Ei3);
-            Voeding Ei4= new Voeding
-            {
-                WeekLijstId = weekLijstId,
-                NaamVoeding = "Ei",
-                IsVerplichteVoeding = false,
-                IsGenuttigd = false
-            };
-            result = Database.InsertAsync(Ei4);
             Voeding Kip1 = new Voeding
             {
                 WeekLijstId = weekLijstId,

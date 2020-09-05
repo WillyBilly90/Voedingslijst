@@ -1,0 +1,13 @@
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\bin\Debug\netstandard2.0\EGA-Lijst.deps.json
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\bin\Debug\netstandard2.0\EGA-Lijst.dll
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\bin\Debug\netstandard2.0\ref\EGA-Lijst.dll
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\bin\Debug\netstandard2.0\EGA-Lijst.pdb
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\EGA-Lijst.AssemblyInfoInputs.cache
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\EGA-Lijst.AssemblyInfo.cs
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\EGA-Lijst.csproj.CoreCompileInputs.cache
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\EGA-Lijst.dll
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\ref\EGA-Lijst.dll
+D:\Source\EGA-Lijst\EGA-Lijst\EGA-Lijst\obj\Debug\netstandard2.0\EGA-Lijst.pdb
